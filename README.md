@@ -57,7 +57,7 @@ npm run build
 ```
 
 
-# Project Structure
+### Project Structure
 
 This project follows a standard structure for a Next.js application. Here's an overview of the key directories and files:
 
