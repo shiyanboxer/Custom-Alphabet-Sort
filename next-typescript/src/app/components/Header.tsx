@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <div className="text-center">
-      <h2 className="text-3xl font-bold my-4">
+      <h2 className="text-3xl font-bold my-4 pt-10">
         Custom Alphabet Sort
       </h2>
       <p className="mb-8">

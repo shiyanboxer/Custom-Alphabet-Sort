@@ -27,8 +27,8 @@ export default function Form() {
     };
 
     return (
-        <main className="flex min-h-screen flex-col items-center justify-center p-24">
-            <div className="space-y-4 w-full max-w-md mx-auto">
+        <main className="flex flex-col items-center justify-center p-24">
+            <div className="space-y-4 w-full max-w-lg mx-auto">
                 <input
                     type="text"
                     value={input}
@@ -51,8 +51,9 @@ export default function Form() {
                 </button>
             </div>
             {result && (
-                <div className="mt-4 p-4 border rounded-md w-full max-w-md mx-auto">
-                    <p>Result: {result}</p>
+                <div className="mt-4 p-4 border rounded-md w-full max-w-lg mx-auto text-center">
+                    <p>Result:</p>
+                    <p className="font-bold my-4">{result}</p>
                 </div>
             )}
         </main>
