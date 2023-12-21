@@ -19,7 +19,7 @@ Before you begin, ensure you have the following installed:
 - [npm](https://www.npmjs.com/) (usually comes with Node.js)
 - [Git](https://git-scm.com/)
 
-## Installation
+#### Installation
 
 1. **Clone the Repository**
    
@@ -38,7 +38,7 @@ Before you begin, ensure you have the following installed:
    npm install
    ```
 
-## Running the Application
+#### Running the Application
 
 To run the application in development mode, execute the following command:
 
@@ -48,7 +48,7 @@ npm run dev
 
 This will start the server, on [http://localhost:3000](http://localhost:3000). Open the URL in your browser to view the application.
 
-## Building for Production
+#### Building for Production
 
 To build the application for production, use:
 
@@ -57,7 +57,7 @@ npm run build
 ```
 
 
-# Project Structure
+### Project Structure
 
 This project follows a standard structure for a Next.js application. Here's an overview of the key directories and files:
 
