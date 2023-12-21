@@ -10,5 +10,5 @@ export function customSort(input: string, customAlphabet: string): string {
 
     return input.split('').sort((a, b) => {
         return (charPositions.get(a.toLowerCase()) ?? 0) - (charPositions.get(b.toLowerCase()) ?? 0);
-    }).join('');
+    }).join('').toLowerCase();
 }
