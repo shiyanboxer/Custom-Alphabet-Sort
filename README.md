@@ -1,5 +1,6 @@
 ## Custom Alphabet Sort
 
+![screenshot](https://github.com/shiyanboxer/Custom-Alphabet-Sort/blob/main/ProjectScreenshot.png)
 ### Prompt
 
 Please create a GitHub repo that is publicly available with a solution to the following problem. The solution can be in any language, with preference given to solutions in TypeScript. Please include instructions on how to run your code.
