@@ -45,7 +45,7 @@ export default function Form() {
                 />
                 <button
                     onClick={handleSubmit}
-                    className="px-4 py-2 bg-blue-500 text-white rounded-md w-full"
+                    className="px-4 py-2 bg-blue-700 text-white rounded-md w-full"
                 >
                     Sort String
                 </button>
