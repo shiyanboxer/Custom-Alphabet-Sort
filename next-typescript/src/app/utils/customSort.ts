@@ -1,5 +1,5 @@
 export function customSort(input: string, customAlphabet: string): string {
-  if (new Set(customAlphabet).size !== 26) {
+  if (customAlphabet.length !== 26) {
       throw new Error("Custom alphabet must contain all 26 letters");
   }
 
